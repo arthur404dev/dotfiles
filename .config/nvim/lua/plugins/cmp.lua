@@ -30,7 +30,7 @@ return {
     }
 
     opts.sources = vim.tbl_deep_extend("force", opts.sources or {}, {
-      default = { "lsp", "path", "snippets", "buffer", "dadbod", "emoji", "copilot" },
+      default = { "lsp", "path", "snippets", "buffer", "dadbod", "emoji" },
       compat = { "avante_commands", "avante_mentions", "avante_files" },
       providers = {
         lsp = {
@@ -66,13 +66,6 @@ return {
           name = "Emoji",
           score_offset = 15,        -- the higher the number, the higher the priority
           opts = { insert = true }, -- Insert emoji (default) or complete its name
-        },
-        copilot = {
-          name = "copilot",
-          enabled = true,
-          module = "blink-cmp-copilot",
-          kind = "Copilot",
-          score_offset = 20, -- the higher the number, the higher the priority
         },
       },
     })
