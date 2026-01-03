@@ -1,6 +1,6 @@
 [user]
-	name = Arthur Andrade
-	email = git@arthur404.dev
+	name = <<dotts:user.name>>
+	email = <<dotts:user.email>>
 
 [commit]
     gpgsign = false

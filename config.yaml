@@ -1,6 +1,5 @@
-name: arthur-dotfiles
-author: arthur404dev
-description: Personal dotfiles for Arch Linux workstation
+name: dotfiles
+description: Dotfiles managed by dotts
 version: "1.0.0"
 
 default_machine: workstation
