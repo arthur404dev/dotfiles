@@ -1,0 +1,58 @@
+# Arch Linux specific packages
+# These are installed via pacman (system) or yay/paru (AUR)
+
+system:
+  arch:
+    # Core system
+    - base-devel
+    - git
+    - openssh
+    - curl
+    - wget
+    
+    # Shell
+    - fish
+    - starship
+    - zoxide
+    
+    # Terminal emulators
+    - kitty
+    - foot
+    - wezterm
+    
+    # Hyprland desktop
+    - hyprland
+    - waybar
+    - dunst
+    - fuzzel
+    - swww
+    - wl-clipboard
+    - cliphist
+    - grim
+    - slurp
+    - hyprlock
+    - hypridle
+    
+    # System utilities
+    - brightnessctl
+    - networkmanager
+    - bluez
+    - bluez-utils
+    - pipewire
+    - pipewire-pulse
+    - wireplumber
+    
+    # Fonts
+    - ttf-jetbrains-mono-nerd
+    - ttf-fira-code-nerd
+    - noto-fonts
+    - noto-fonts-emoji
+    
+    # Development
+    - neovim
+    - docker
+    - docker-compose
+
+aur:
+  - yay-bin
+  - visual-studio-code-bin

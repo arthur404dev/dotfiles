@@ -1,0 +1,11 @@
+name: linux
+description: Linux-specific configuration
+
+inherits:
+  - base
+
+configs:
+  - terminal
+
+packages:
+  - arch

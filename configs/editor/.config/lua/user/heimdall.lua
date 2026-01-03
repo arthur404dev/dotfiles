@@ -1,0 +1,1 @@
+/home/arthur/.config/heimdall/current/theme/nvim.lua

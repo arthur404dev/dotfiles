@@ -1,0 +1,13 @@
+nix:
+  - ripgrep
+  - fd
+  - fzf
+  - bat
+  - eza
+  - delta
+  - lazygit
+  - btop
+  - fastfetch
+  - lsd
+  - starship
+  - zoxide

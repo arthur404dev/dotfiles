@@ -1,0 +1,11 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR EDITOR:nvim
+SETUVAR PAGER:less
+SETUVAR SSH_KEYS_TO_AUTOLOAD:/home/arthur/\x2essh/id_rsa\x1e/home/arthur/\x2essh/id_ed25519
+SETUVAR __fish_initialized:4300
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_initialized:1
+SETUVAR fish_user_paths:/usr/local/bin\x1e/home/arthur/bin\x1e/home/arthur/\x2ecargo/bin\x1e/home/arthur/\x2elocal/bin\x1e/home/arthur/\x2eopencode/bin

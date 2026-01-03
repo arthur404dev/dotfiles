@@ -1,0 +1,15 @@
+name: base
+description: Universal base configuration
+
+configs:
+  - shell
+  - git
+  - tools
+
+packages:
+  - common
+
+settings:
+  shell: fish
+  editor: nvim
+  theme: catppuccin

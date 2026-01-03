@@ -1,0 +1,12 @@
+name: arthur-dotfiles
+author: arthur404dev
+description: Personal dotfiles for Arch Linux workstation
+version: "1.0.0"
+
+default_machine: workstation
+
+features:
+  - ssh
+  - github
+  - docker
+  - gui

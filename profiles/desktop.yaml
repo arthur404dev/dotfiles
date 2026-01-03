@@ -1,0 +1,15 @@
+name: desktop
+description: Desktop workstation with Hyprland
+
+inherits:
+  - linux
+
+configs:
+  - editor
+  - wm
+
+settings:
+  compositor: hyprland
+  bar: waybar
+  launcher: fuzzel
+  notifications: dunst
