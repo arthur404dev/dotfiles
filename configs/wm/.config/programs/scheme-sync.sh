@@ -28,10 +28,10 @@ log_error() {
 }
 
 # Configuration
-HEIMDALL_CLI_SCHEME="/home/arthur/.local/state/current_scheme.json"
-HEIMDALL_CLI_ALT="/home/arthur/.config/heimdall-cli/current_scheme.json"
-QUICKSHELL_STATE_DIR="/home/arthur/.local/state/quickshell/user/generated"
-HEIMDALL_SHARE_DIR="/home/arthur/.local/share/heimdall"
+HEIMDALL_CLI_SCHEME="$HOME/.local/state/current_scheme.json"
+HEIMDALL_CLI_ALT="$HOME/.config/heimdall-cli/current_scheme.json"
+QUICKSHELL_STATE_DIR="$HOME/.local/state/quickshell/user/generated"
+HEIMDALL_SHARE_DIR="$HOME/.local/share/heimdall"
 
 # Ensure directories exist
 mkdir -p "$QUICKSHELL_STATE_DIR"
@@ -250,8 +250,8 @@ sync_schemes() {
         cp "$temp_file" "$HEIMDALL_SHARE_DIR/colors.json"
         
         # Also update the heimdall config directory if it exists
-        if [ -d "/home/arthur/.config/quickshell/heimdall/config" ]; then
-            cp "$temp_file" "/home/arthur/.config/quickshell/heimdall/config/scheme.json"
+        if [ -d "$HOME/.config/quickshell/heimdall/config" ]; then
+            cp "$temp_file" "$HOME/.config/quickshell/heimdall/config/scheme.json"
         fi
         
         rm -f "$temp_file"

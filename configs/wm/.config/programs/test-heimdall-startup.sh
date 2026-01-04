@@ -11,12 +11,12 @@ sleep 2
 
 # Run the initialization script
 echo "Running state initialization..."
-/home/arthur/dots/wm/.config/hypr/programs/init-heimdall-state.sh
+"$HOME/.config/programs/init-heimdall-state.sh"
 echo ""
 
 # Check the environment
 echo "Checking environment..."
-/home/arthur/dots/wm/.config/hypr/programs/check-heimdall-env.sh | grep -E "(✓|✗|Running|missing)"
+"$HOME/.config/programs/check-heimdall-env.sh" | grep -E "(✓|✗|Running|missing)"
 echo ""
 
 # Try to start heimdall manually
