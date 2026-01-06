@@ -1,0 +1,7 @@
+machine:
+    hostname: archlinux
+    description: ' machine'
+inherits:
+    - base
+features:
+    - development
