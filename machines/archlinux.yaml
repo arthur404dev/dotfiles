@@ -3,5 +3,3 @@ machine:
     description: ' machine'
 inherits:
     - base
-features:
-    - development
